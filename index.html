@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="https://kit.fontawesome.com/37ffce5e1f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                    <h1 id="logo-text"><span>R</span>icha</h1>
+                </div>
+                <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu"></i>
+                </ul>
+            </nav>
+
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1><span>Richa Gautam </span><br>Front-End Developer</h1>
+        </div>
+        </div>
+    </div>
+
+<!------------------about----------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>🎓 I am Richa Gautam, a Front End Developer (specializing in React Applications). I'm a passionate learner who's always willing to learn and work across technologies and domains 💡.I love to explore new technologies and leverage them to solve real-life problems ✨.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">🛠️ Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>
+                            <div class="skills">
+                                <img src="images/assets/react.png" alt="react">
+                            </div>
+                            <div class="skills">
+                                <img src="images/assets/redux.png" alt="">
+                               
+                            </div>
+                            <div class="skills">
+                                <img src="images/assets/typescript.png" alt="">
+                               
+                            </div>
+                            <div class="skills">
+                                <img src="images/assets/javascript.png" alt="">
+                               
+                            </div>
+                            <div class="skills">
+                                <img src="images/assets/git.png" alt="">
+                               
+                            </div>
+                            <div class="skills">
+                                <img src="images/assets/html.png" alt="">
+                               
+                            </div>
+                            <div class="skills">
+                                <img src="images/assets/css.png" alt="">
+                            </div>
+                            <div class="skills">
+                                <img src="images/assets/python.png" alt="">
+                            </div>
+                            <div class="skills">
+                                <img src="images/assets/sass.png" alt="">
+                            </div>
+                            <div class="skills">
+                                <img src="images/assets/api.png" alt="">
+                            </div>
+                            <div class="skills">
+                                <img src="images/assets/mu5.png" alt="">
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>Software Developer at Hebbale Academy</li>
+                    </ul>
+                    <p>Built reusable and modular components that promote code reusability and maintainability, while adhering to best practices and coding standards.Worked with RESTful APIs to integrate front-end components with backend services, ensuring seamless data flow and functionality.Collaborated with cross-functional teams, including product managers,
+                    designers, and backend developers, to develop robust and scalable web applications using React.js.Conducted code reviews and provided constructive feedback to team members to maintain code quality and optimize application performance.Troubleshooted and debugged issues in existing applications, identifying and implementing effective solutions promptly.Took ownership of front-end development tasks, ensuring the responsiveness and performance of applications across various devices and browsers.Participated in the entire software development lifecycle, from concept and design to testing and deployment.Stay updated with the latest trends and advancements in React.js and front-end technologies, proactively suggesting improvements and innovations to enhance the development process.</p>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2010 - 2014</span><br>Bachelor of Technology</li>
+                        <p>Completed my B.Tech with Hons.</p>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------------------Certificates-------------------->
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="certificates-list">
+            <div class="certificates">
+                <img src="images/responsive_web_design.png" alt="responsive_web_design">   
+            </div>
+            <div class="certificates">
+                <img src="images/javascript.png" alt="javascript">
+            </div>
+            <div class="certificates">
+                <img src="images/front-end.png" alt="front-end">
+            </div>
+            <div class="certificates">
+                <img src="images/data-visualization.png" alt="front-end">
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------------------------portfolio/My Work---------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.You can see its demo here.</p>
+                    <a href="https://linkedin-clone-1112a.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Booking App</h3>
+                    <p>The app helps you  find the perfect place at the right price and book in just a few minutes.</p>
+                    <a href="https://airbnb-clone-e13cf.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The ecommerce app allows users to shop online, browse product catalogs, create wish lists, add items to a cart, and complete purchases.</p>
+                    <a href="https://shopopia.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/woman-is-typing-google-search-engine-from-laptop-cell-phone-google-is-biggest-internet-search-engine-world_21483-267.avif" alt="">
+                <div class="layer">
+                    <h3>Internet Search Engine</h3>
+                    <p>The app organizes the world's information and make it universally accessible and useful.</p>
+                    <a href="https://clone-35c82.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/marketing-creative-collage-with-phone.jpeg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping Cart</h3>
+                    <p>An online shopping cart is software that makes it possible for customers to select products and buy them online.</p>
+                    <a href="https://urbanstore-f0038.web.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Daco_1059480.png" alt="">
+                <div class="layer">
+                    <h3>Contact Management App</h3>
+                    <p>This is a contact management app with charts and maps with simple dashboard with a line graph showing the cases fluctuations and a react leaflet map with markers.</p>
+                    <a href="https://contact-management-app-ivory.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------------------Contact------------------ -->
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>errichagautam@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9548439668</p>
+                <div class="social-icons">
+                    <a href="https://github.com/richagautam21"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/richa-gautam-447877282/"><i class="fa-brands fa-linkedin"></i></a>
+                    <!-- <a href="https://mail.google.com/mail/"><i class="fa-solid fa-envelope"></i></a> -->
+                </div>
+                <a href="images/Gautam Richa CV.pdf" class="btn btn2">Download CV</a>
+                </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>  
+    </div>
+     <div class="copyright">
+         <p>Copyright @ Richa. Powered by<i class="fa-solid fa-heart"></i> Richa Gautam</p>
+     </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwf5H9V0CfOW81R1Zx7A5_H72t2OXJ-nEfjItZyidD6Fj-_4TDHyvMjB_fGhpgAl-BIHw/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function() {
+            msg.innerHTML = ""
+          },3000)
+          form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
